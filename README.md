@@ -1,4 +1,4 @@
-# Laravel 8 Fortify Auth
+# Laravel 8 with Laravel/Breeze
 
 ```diff
 - Learning Project
@@ -6,34 +6,20 @@
 
 This laravel 8 starter project uses:
 
-- [Fortify](https://github.com/laravel/fortify).
+- [Laravel/Breeze](https://github.com/laravel/breeze). (Copied over not installed for learning purposes)
 - [AlpineJS](https://github.com/alpinejs/alpine).
 - [Tailwindcss](https://tailwindcss.com/).
 - Sass to compile assets.
-- Tests from Laravel/Breeze (modified)
+- Tests from Laravel/Breeze (modified and Exhausted for learning purposes)
 
 ## Auth
 
 - Login
-- Register
-- Email verification
-- Reset password
-- Password Confirmation
+- Logout
 
-Created using fortify, following:
-
-[Laravel Fortify - Create your own laravel 8 login system](https://www.youtube.com/watch?v=KVE1BofYBF0&list=PLxFwlLOncxFIbxi2gQCN3SR5e3-WB-4T2)
-
-Penguin Digital youtube channel
+Created using laravel/breeze, without installing laravel/breeze.
+Copied over all files and tests for learning purposes
 
 ## Tests
 
-Tests were copied from [Laravel/Breeze](https://github.com/laravel/breeze) and modified to work
-
-## Tailwind ui
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Tests were copied from [Laravel/Breeze](https://github.com/laravel/breeze), also more tests were added for learning purposes.
