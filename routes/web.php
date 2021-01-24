@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\AuthenticatedSessionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/home', function () {
+    return view('home');
+})->middleware('auth');
+
+// Authentication Routes
+Route::get('/login', [AuthenticatedSessionController::class, 'create'])
+                ->middleware('guest')
+                ->name('login');
+
+Route::post('/login', [AuthenticatedSessionController::class, 'store'])
+                ->middleware('guest');
+
+Route::post('/logout', [AuthenticatedSessionController::class, 'destroy'])
+                ->middleware('auth')
+                ->name('logout');
