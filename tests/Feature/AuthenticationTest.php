@@ -2,19 +2,21 @@
 
 namespace Tests\Feature;
 
-use App\Providers\RouteServiceProvider;
 use Tests\TestCase;
 use App\Models\User;
+use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class AuthenticationTest extends TestCase
 {
     use RefreshDatabase;
 
+    /* may be redundant but for learning purposes :) */
+
     /** @test */
     public function guests_may_not_visit_home_page()
     {
-        $response = $this->get('/home')->assertRedirect('/login');
+        $this->get('/home')->assertRedirect('/login');
     }
 
     /** @test */
