@@ -16,10 +16,12 @@ This laravel 8 starter project uses:
 
 - Login
 - Logout
+- Register
+- Email Verification
 
 Created using laravel/breeze, without installing laravel/breeze.
-Copied over all files and tests for learning purposes
+Typed over one file at a time for learning purposes.
 
 ## Tests
 
-Tests were copied from [Laravel/Breeze](https://github.com/laravel/breeze), also more tests were added for learning purposes.
+Tests were typed over from [Laravel/Breeze](https://github.com/laravel/breeze), also more tests were added for learning purposes.
