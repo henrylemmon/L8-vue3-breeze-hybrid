@@ -18,6 +18,7 @@ This laravel 8 starter project uses:
 - Logout
 - Register
 - Email Verification
+- Password Confirmation
 
 Created using laravel/breeze, without installing laravel/breeze.
 Typed over one file at a time for learning purposes.
