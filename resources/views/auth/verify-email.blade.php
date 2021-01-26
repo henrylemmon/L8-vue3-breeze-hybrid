@@ -16,13 +16,13 @@
                 <form method="POST" action="{{ route('verification.send') }}">
                     @csrf
 
-                    <button type="submit" class="bg-blue-500 py-2 px-3 text-white rounded-lg hover:bg-blue-600">Resend Link</button>
+                    <button type="submit" class="bg-blue-500 py-2 px-3 text-white rounded-lg hover:bg-blue-600">{{ __('Send Link Again') }}</button>
                 </form>
 
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
 
-                    <button type="submit" class="bg-blue-500 py-2 px-3 text-white rounded-lg hover:bg-blue-600">Logout</button>
+                    <button type="submit" class="bg-blue-500 py-2 px-3 text-white rounded-lg hover:bg-blue-600">Log Out</button>
                 </form>
             </div>
         </div>
