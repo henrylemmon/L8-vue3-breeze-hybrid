@@ -1,6 +1,13 @@
 <x-layouts.app>
 
     <x-layouts.page.main>
+
+        <div id="app">
+            <div class="my-4">
+                <example-component></example-component>
+            </div>
+        </div>
+
         <a
             href="{{ route('logout') }}"
             onclick="event.preventDefault();

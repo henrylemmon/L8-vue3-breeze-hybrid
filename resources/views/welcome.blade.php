@@ -21,6 +21,13 @@
         </style>
     </head>
     <body class="antialiased">
+
+    <div id="app">
+        <div class="my-4">
+            <example-component></example-component>
+        </div>
+    </div>
+
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
@@ -128,5 +135,6 @@
                 </div>
             </div>
         </div>
+    <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
