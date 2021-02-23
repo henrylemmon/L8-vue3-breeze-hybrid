@@ -13,6 +13,12 @@ This laravel 8 starter project uses:
 - Sass to compile assets.
 - Tests from Laravel/Breeze (modified and Exhausted for learning purposes)
 
+## Vue3
+
+- Example component
+- Ready scaffolded
+- Just run npm install && npm run dev
+
 ## Auth
 
 - Login
