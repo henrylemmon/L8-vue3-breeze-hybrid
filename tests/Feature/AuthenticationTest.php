@@ -16,7 +16,7 @@ class AuthenticationTest extends TestCase
     /** @test */
     public function guests_may_not_visit_home_page()
     {
-        $this->get('/home')->assertRedirect('/login');
+        $this->get('/projects')->assertRedirect('/login');
     }
 
     /** @test */

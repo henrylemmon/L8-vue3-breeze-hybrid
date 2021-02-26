@@ -1,6 +1,6 @@
 <x-layouts.guest>
 
-    <x-layouts.page.main>
+    <x-layouts.auth.main>
         <div class="md:w-2/3 lg:w-3/5 xl:w-2/3 p-4 border border-gray-200 shadow-md rounded-lg mx-auto">
             <div class="mt-6 text-gray-600">
                 {{ __('Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.') }}
@@ -36,6 +36,6 @@
                 </form>
             </div>
         </div>
-    </x-layouts.page.main>
+    </x-layouts.auth.main>
 
 </x-layouts.guest>

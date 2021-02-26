@@ -1,6 +1,6 @@
 <x-layouts.guest>
 
-    <x-layouts.page.main>
+    <x-layouts.auth.main>
         <div class="md:w-2/3 lg:w-3/5 xl:w-2/3 p-4 border border-gray-200 shadow-md rounded-lg mx-auto">
             <div class="mt-6 text-sm text-gray-600">
                 {{ __('Thanks for signing up! Before getting started, could you verify your email address by clicking on the link we just emailed to you? If you didn\'t receive the email, we will gladly send you another.') }}
@@ -26,6 +26,6 @@
                 </form>
             </div>
         </div>
-    </x-layouts.page.main>
+    </x-layouts.auth.main>
 
 </x-layouts.guest>

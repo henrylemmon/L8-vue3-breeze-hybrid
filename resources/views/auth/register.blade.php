@@ -1,6 +1,6 @@
 <x-layouts.guest>
 
-    <x-layouts.page.main>
+    <x-layouts.auth.main>
         <div class="md:w-2/3 lg:w-3/5 xl:w-2/3 p-4 border border-gray-200 shadow-md rounded-lg mx-auto">
             <h3 class="text-4xl semibold">Register</h3>
             <form method="POST" action="{{ route('register') }}">
@@ -49,6 +49,6 @@
                 </div>
             </form>
         </div>
-    </x-layouts.page.main>
+    </x-layouts.auth.main>
 
 </x-layouts.guest>
