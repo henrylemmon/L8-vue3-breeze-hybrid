@@ -1,4 +1,4 @@
-# Laravel 8 with Laravel/Breeze
+# Laravel 8 with Laravel/Breeze Vue3
 
 ```diff
 - Learning Project
