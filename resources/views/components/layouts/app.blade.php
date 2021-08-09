@@ -17,7 +17,7 @@
 </head>
 
 <body class="bg-gray-100">
-<div class="relative antialiased text-gray-900">
+<div class="relative antialiased text-gray-900" id="app">
     {{ $slot }}
 </div>
 </body>
